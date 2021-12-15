@@ -178,6 +178,10 @@ public class FrameSeleccionarTablaDatos extends javax.swing.JFrame {
     private void tablaDatosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tablaDatosMouseClicked
         // TODO add your handling code here:
 
+        
+        // Seleccionar tabla datos
+        // Seleccionar un objeto de la tabla y mostrar los datos
+        
         int seleccionar = tablaDatos.rowAtPoint(evt.getPoint());
 
         txtId.setText(String.valueOf(tablaDatos.getValueAt(seleccionar, 0)));
